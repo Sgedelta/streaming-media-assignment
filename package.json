@@ -1,0 +1,21 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "The streaming media assignment for IGME 430 by Sam Easton",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "ech \"Tests Complete\""
+  },
+  "author": "Samuel Easton",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "streaming-media-assignment": "file:"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
